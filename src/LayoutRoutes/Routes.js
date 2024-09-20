@@ -12,7 +12,7 @@ function RoutesLayout() {
         <Header/>
     <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='/ ecommerce-app' element={<Home/>}/>
+    <Route path='/ecommerce-app' element={<Home/>}/>
     <Route path='/logout' element={<Logout/>}/>
     <Route path='/product/:id' element={<ProductDetails/>}/>
     </Routes>
